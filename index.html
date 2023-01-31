@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./sc.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="root">
+      <div class="currentPlayer">
+        <span>Сейчас ходит:<span id="currentPl"> X</span></span>
+      </div>
+      <div class="gameResult">
+        <span>результат игры:</span>
+        <br />
+        <span id="whoWins"></span>
+      </div>
+      <div class="gameHistory">
+        <div id="roundHistory"></div>
+        <br />
+      </div>
+      <div id="area"></div>
+      <div class="stat">
+        <table>
+          <th colspan="2">Статистика</th>
+          <tr>
+            <td>Победа X</td>
+            <td id="sX">
+              <span>0</span>
+            </td>
+          </tr>
+          <tr>
+            <td id="sO">Победа О</td>
+            <td>
+              <span>0</span>
+            </td>
+          </tr>
+          <tr>
+            <td id="sD">Ничья</td>
+            <td>
+              <span>0</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="./ls.js"></script>
+  </body>
+</html>
